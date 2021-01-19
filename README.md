@@ -4,6 +4,14 @@ The simplest possible front end search box and results rendering for an Azure Co
 utilising [streamlit](https://www.streamlit.io/) and 
 [dotenv](https://pypi.org/project/python-dotenv/) to keep it down to a single Python script.
 
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Python 3 (project was built with 3.8. This specific version may not be required, but 3.8+ is recommended.)
+
+- Pip (Python package installer, should be installed with Python 3.)
+
 ### Usage
 
 Clone the repo.

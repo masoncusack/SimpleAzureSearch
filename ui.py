@@ -40,4 +40,4 @@ st.subheader("Results found:")
 # print(type(results)) # spoiler: custom Azure Search pagedItem object
 for result in results:
     # print(result.keys())  # Inspect what you can display
-    st.text(result["Id"])  # Most search results have an ID
+    st.text(result[str(list(result.keys())[0])])  # Show first available item
